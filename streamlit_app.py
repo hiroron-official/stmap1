@@ -104,7 +104,9 @@ with col2:
     # Streamlitに表示
     st.pyplot(fig)
 
-# --- 地図表示 (おまけ) ---
+# --- 地図表示 ---
 st.divider()
 st.subheader("地図上での位置確認")
-st.map(df)
+
+# 列名を明示的に指定してエラーを回避
+st.map(df, latitude='Latitude', longitude='Longitude')

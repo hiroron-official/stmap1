@@ -15,7 +15,9 @@ kyushu_capitals = {
     'Kumamoto':   {'lat': 32.7900, 'lon': 130.7420},
     'Oita':       {'lat': 33.2381, 'lon': 131.6119},
     'Miyazaki':   {'lat': 31.9110, 'lon': 131.4240},
-    'Kagoshima':  {'lat': 31.5600, 'lon': 130.5580}
+    'Kagoshima':  {'lat': 31.5600, 'lon': 130.5580},
+    'Osaka':      {'lat': 34.6937, 'lon': 135.5023}, 
+    'Tokyo':      {'lat': 35.6895, 'lon': 139.6917}
 }
 
 # --- データ取得関数 ---

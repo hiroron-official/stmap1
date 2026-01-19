@@ -86,6 +86,7 @@ with col2:
         get_fill_color='[255, 100, 0, 180]', # 柱の色（オレンジ系）
         pickable=True,       # ホバーを有効に
         auto_highlight=True,
+        transitions={"get_elevation": 1000} 
     )
 
     # 描画
